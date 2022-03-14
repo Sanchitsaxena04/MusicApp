@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand-name" ><img src="logo.png" alt="brandlogo">MyMusic</li>
+            <li class="brand-item">Home</li>
+            <li class="brand-item">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+            <h1>My favourites.</h1>
+            <div class="songitemcontainer">
+
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 1 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">04:39</span><span class="timestamp"><i  id="1"   class="far songItemPlay  fa-play-circle"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 2 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">04:33</span><span class="timestamp"><i id="2"  class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 3 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">04:05</span><span class="timestamp"><i id="3" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 4 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">05:23</span><span class="timestamp"><i id="4" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 5 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">04:23</span><span class="timestamp"><i id="5" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 6 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">03:57</span><span class="timestamp"><i id="6" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 7 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">05:33</span><span class="timestamp"><i id="7" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 8 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">05:49</span><span class="timestamp"><i id="8" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 9 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">04:16</span><span class="timestamp"><i id="9" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="cover 10 image">
+                <span class="songname">Let me love you</span>
+                <span class="songlistplay"><span class="duration">03:39</span><span class="timestamp"><i id="10" class="far songItemPlay  fa-play-circle"></i></span></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" value = "0" min="0" max="100">
+    <div class="icons">
+        <!--font-awesome icons-->
+        <i class="fas fa-2x fa-step-backward" id="previous"></i>
+        <i class="far songItemPlays fa-2x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-2x fa-step-forward" id="next"></i>
+
+    </div>
+    <div class="songinfo">
+        <img src="playing.gif"  alt="playing" id="gif" style="opacity: 0;"> <span id="masterSongName">Teri jhuki nazar-Shafqat Amanat Ali - Murder 3</span>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/930e5eaba2.js" crossorigin="anonymous"></script>
+<script src="App.js"></script>
+
+</body>
+</html>
